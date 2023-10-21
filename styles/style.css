@@ -66,3 +66,30 @@ header {
     line-height: 30px;
     /* 166.667% */
 }
+
+/* main section styles */
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.featured-flowers {
+    text-align: center;
+}
+
+.feature-flowers-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flower-item {
+    background-color: #A7216226;
+    border-radius: 50% 50% 0 0;
+    -webkit-border-radius: 50% 50% 0 0;
+    -moz-border-radius: 50% 50% 0 0;
+    -ms-border-radius: 50% 50% 0 0;
+    -o-border-radius: 50% 50% 0 0;
+    width: 464px;
+    height: 538px;
+}
