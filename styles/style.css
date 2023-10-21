@@ -1,0 +1,41 @@
+/* shared styles */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* body {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0 auto;
+} */
+
+body {
+    font-family: Lato;
+    margin: 0 auto;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border: 0;
+    color: #FFFFFF;
+}
+
+/* header related styles */
+
+header {
+    background: rgba(229, 84, 115, 0.10);
+    width: 1920px;
+    height: 850px;
+}
+
+.banner {
+    /* max-width: 1440px; */
+    display: flex;
+    justify-content: center;
+}
+
+/* .banner-content {
+} */
