@@ -109,7 +109,6 @@ main {
 }
 
 .flower-item {
-    background-color: #A7216226;
     border-radius: 300px 300px 0 0;
     -webkit-border-radius: 300px 300px 0 0;
     -moz-border-radius: 300px 300px 0 0;
@@ -145,4 +144,37 @@ main {
     line-height: 35px;
     /* 145.833% */
     text-decoration-line: underline;
+}
+
+.background-1 {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.background-2 {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.background-3 {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.service {
+    margin-bottom: 128px;
+    padding: 87px 175px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.service-description {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    /* 145.833% */
 }
