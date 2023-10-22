@@ -49,11 +49,8 @@ header {
 .banner-title {
     margin-bottom: 32px;
     color: #272727;
-    font-family: Lato;
     font-size: 40px;
-    font-style: normal;
     font-weight: 800;
-    line-height: normal;
 }
 
 .banner-description {
@@ -83,7 +80,7 @@ main {
     color: #272727;
     text-align: center;
     font-family: Lato;
-    font-size: 40px;
+    font-size: 36px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -99,7 +96,6 @@ main {
     font-weight: 400;
     line-height: 30px;
     margin-bottom: 48px;
-    /* 166.667% */
 }
 
 .feature-flowers-container {
@@ -177,4 +173,38 @@ main {
     font-style: normal;
     font-weight: 600;
     /* 145.833% */
+    margin-top: 24px;
+}
+
+.hot-deal {
+    background: rgba(229, 84, 115, 0.10);
+    width: 1440px;
+    height: 620px;
+}
+
+.hot-deal-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.hot-deal-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.hot-deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 24px;
 }
